@@ -744,11 +744,7 @@ section.cloudflare-box {
 
         .ventana-text {
             h3 {
-                font-size: 20px;
-                margin: 20px 0;
-                color: #000;
-                font-weight: bold;
-                line-height: 30px;
+                @include inner-heading;
             }
 
 
