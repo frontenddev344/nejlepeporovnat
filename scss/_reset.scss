@@ -267,6 +267,11 @@ footer {
         h3 {
             color: $color_1;
             font-weight: 600;
+
+            @include respond-to('md') {
+                margin-top: 24px;
+            }
+
         }
 
         ul {

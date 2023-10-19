@@ -256,6 +256,11 @@ footer .menu-footer h3 {
   color: #fff;
   font-weight: 600;
 }
+@media (max-width: 767px) {
+  footer .menu-footer h3 {
+    margin-top: 24px;
+  }
+}
 footer .menu-footer ul {
   padding: 0;
   list-style: none;
