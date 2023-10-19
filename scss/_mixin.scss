@@ -134,7 +134,8 @@ transition: all 0.3s ease-in-out 0s;
     position: relative;
     z-index: 9;
 }
-@mixin iner-page-after{
+
+@mixin iner-page-after {
     content: '';
     background-color: #00000021;
     position: absolute;
@@ -142,4 +143,10 @@ transition: all 0.3s ease-in-out 0s;
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+@mixin bgpro {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

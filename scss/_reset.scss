@@ -600,9 +600,7 @@ section.Page-second {
 // section.iner-page.resort
 section.iner-page.resort {
     background: url(../images/Resorts.jpg)no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include bgpro;
 }
 
 section.chateau {
@@ -712,9 +710,7 @@ section.chateau {
 // 
 section.iner-page.boutique {
     background: url(../images/boutique-bnr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include bgpro;
 }
 
 section.cloudflare-box {
@@ -811,16 +807,12 @@ section.cloudflare-box {
 // 
 section.iner-page.top-rate {
     background: url(../images/Top-Rated.jpg)no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include bgpro;
 }
 
 section.iner-page.contact {
     background: url(../images/contact.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include bgpro;
 }
 
 // 
