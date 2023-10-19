@@ -1,0 +1,26 @@
+@media screen and (max-width: 1204px) {
+  .cookies {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  #cookies-btn {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

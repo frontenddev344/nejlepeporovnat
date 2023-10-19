@@ -1,0 +1,145 @@
+/// Mixin to manage responsive breakpoints
+/// @author Kitty Giraudel
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+@mixin respond-to($breakpoint) {
+
+    // If the key exists in the map
+    @if map-has-key($breakpoints, $breakpoint) {
+
+        // Prints a media query based on the value
+        @media (max-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+
+    // If the key doesn't exist in the map
+    @else {
+        @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        +"Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+}
+
+
+$breakpoints: (
+    'sm': 567px,
+    'md': 767px,
+    'xl': 992px,
+    'xxl': 1200px) !default;
+
+
+
+@mixin nav {
+    font-family: $font-family_1;
+    height: 100px;
+}
+
+@mixin logo {
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: $color_1;
+}
+
+@mixin links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin li {
+    list-style: none;
+}
+
+@mixin a {
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    color: $color_1;
+    text-decoration: none;
+    position: relative;
+}
+
+@mixin inner-heading {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #000;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+@mixin inner-btn {
+    background-color: $background-color_1;
+    color: $color_1;
+    text-decoration: none;
+    padding: 12px 35px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+@mixin after {
+    content: "";
+    position: absolute;
+    width: 212px;
+    height: 5px;
+    bottom: 0;
+    left: -10px;
+    background: $background-color_1;
+}
+
+@mixin before {
+    content: "";
+    position: absolute;
+    width: 212px;
+    height: 5px;
+    top: 0;
+    left: -10px;
+    background: $background-color_1;
+}
+
+@mixin menubefore {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $background-color_2;
+    visibility: hidden;
+    transform: scaleX(0
+    );
+transition: all 0.3s ease-in-out 0s;
+}
+
+@mixin iner-page-bnr {
+    background: url(../images/spa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    z-index: 9;
+}
+@mixin iner-page-after{
+    content: '';
+    background-color: #00000021;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
