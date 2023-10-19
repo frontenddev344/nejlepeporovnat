@@ -283,6 +283,11 @@ footer .menu-footer ul li a:hover {
   display: inline-flex;
   margin-top: 60px;
 }
+@media (max-width: 767px) {
+  .wrapper {
+    margin-top: 0px;
+  }
+}
 .wrapper .icon {
   margin: 0 5px;
   text-align: center;
