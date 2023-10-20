@@ -2,6 +2,10 @@
 @import './variables';
 @import './mixin';
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -239,6 +243,7 @@ section.abychom-text {
 
     .augustine {
         margin-bottom: 30px;
+
         h3 {
             margin: 20px 0;
         }
@@ -958,4 +963,43 @@ section.contact-pages {
 
 .cookies h5 {
     font-weight: 700;
+}
+
+// 
+
+.go-top {
+    position: fixed;
+    bottom: 8%;
+    right: 6%;
+    padding: 20px;
+    display: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+
+.go-top:after {
+    font-family: FontAwesome;
+    content: "\f106";
+    background-color: $background-color_1;
+    padding: 10px 15px;
+    color: $color_1;
+    position: absolute;
+    bottom: 10px;
+    font-size: 28px;
+}
+
+.go-top-text {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin: 20px 0 0 -4px;
+    color: $background-color_1;
+}
+
+.go-top:hover {
+    transition: all .4s linear;
+    transform: scale(1.1);
 }

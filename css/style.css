@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -865,6 +869,43 @@ section.contact-pages .contact-inner h5 {
 
 .cookies h5 {
   font-weight: 700;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 8%;
+  right: 6%;
+  padding: 20px;
+  display: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+
+.go-top:after {
+  font-family: FontAwesome;
+  content: "\f106";
+  background-color: #3e65da;
+  padding: 10px 15px;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  font-size: 28px;
+}
+
+.go-top-text {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin: 20px 0 0 -4px;
+  color: #3e65da;
+}
+
+.go-top:hover {
+  transition: all 0.4s linear;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
