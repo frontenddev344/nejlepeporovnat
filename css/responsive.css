@@ -1,3 +1,18 @@
+@media only screen and (max-width: 1400px) and (min-width: 1023px) {
+  section.chateau .wrapper-chateau img {
+    height: 363px;
+  }
+  .chateau-text p {
+    font-size: 14px;
+  }
+  section.chateau .chateau-text h3 {
+    font-size: 17px;
+    margin: 9px 0;
+  }
+  section.chateau .chateau-text {
+    padding: 5px;
+  }
+}
 @media screen and (max-width: 1204px) {
   .cookies {
     padding: 10px 0;
@@ -15,6 +30,9 @@
   }
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
+  }
+  .chateau-wrapper.hobby .row {
+    flex-direction: column-reverse;
   }
 }
 @media (max-width: 767px) {

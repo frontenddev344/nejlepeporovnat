@@ -518,8 +518,8 @@ section.Page-second {
     padding: 50px 0;
   }
 }
-@media (max-width: 992px) {
-  section.Page-second .inner-page-second .row .col-lg-3.col-md-6 {
+@media (max-width: 1200px) {
+  section.Page-second .inner-page-second .row .col-xl-3.col-lg-6 {
     margin-bottom: 20px;
   }
 }
