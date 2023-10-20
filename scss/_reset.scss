@@ -305,7 +305,7 @@ footer {
             color: $color_1;
             font-weight: 600;
 
-            @include respond-to('md') {
+            @include respond-to('xl') {
                 margin-top: 24px;
             }
 
@@ -654,6 +654,11 @@ section.chateau {
     padding: 80px 0;
     margin-top: 80px;
     margin-bottom: 50px;
+
+    @include respond-to('xl') {
+        margin-top: 0;
+        margin-bottom:0 ;
+    }
 
     .chateau-wrapper .row .col-lg-3 {
         padding: 0;
