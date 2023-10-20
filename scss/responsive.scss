@@ -1,6 +1,11 @@
-@media only screen and (max-width: 1426px) and (min-width: 1199px) {
+@media only screen and (max-width: 1426px) and (min-width: 991px) {
     nav .links {
-        width: 74%;
+        width: 80%;
+
+    }
+
+    nav .links a {
+        padding: 0;
     }
 }
 
