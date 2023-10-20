@@ -34,16 +34,7 @@ $breakpoints: (
     height: 100px;
 }
 
-@mixin logo {
-    float: left;
-    width: 30%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: $color_1;
-}
+
 
 @mixin links {
     float: right;
