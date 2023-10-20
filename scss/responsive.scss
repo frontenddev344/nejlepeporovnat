@@ -1,3 +1,5 @@
+@media screen and (max-width: 1430px) {}
+
 @media screen and (max-width: 1204px) {
     .cookies {
         padding: 10px 0;
@@ -20,10 +22,21 @@
     nav :checked~.icon-burger .line:nth-child(2) {
         opacity: 0;
     }
+
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
     #cookies-btn {
         width: 100%;
+    }
+
+    .site-bnr .bnr-text h1 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .site-bnr .bnr-text {
+        left: 0;
+        padding: 0 20px;
     }
 }

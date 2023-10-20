@@ -44,6 +44,11 @@ nav {
             width: auto;
             justify-content: flex-start;
         }
+
+        @include respond-to('xl') {
+            font-size: 17px;
+            font-weight: 700;
+        }
     }
 
     .links {
@@ -137,6 +142,11 @@ nav {
     .bnr-img {
         height: 800px;
 
+        @include respond-to('xl') {
+            height: 500px;
+        }
+
+
         & img {
             height: 100%;
             object-fit: cover;
@@ -145,16 +155,24 @@ nav {
 
     .bnr-text {
         position: absolute;
-        top: 35%;
+        top: 50%;
         width: 100%;
         max-width: 800px;
         z-index: 99;
+        transform: translateY(-50%);
+
+        @include respond-to('md') {
+            left: 0;
+            padding: 0 20px;
+        }
 
         h1 {
             color: $color_1;
             font-size: 40px;
             line-height: 50px;
+            font-weight: 700
         }
+
 
         p {
             color: $color_1;
@@ -202,6 +220,10 @@ section.awaits {
         color: #fff;
         z-index: 999;
         position: relative;
+
+        @include respond-to('md') {
+            margin-left: 0%;
+        }
     }
 
     p {
@@ -246,6 +268,11 @@ footer {
     padding: 50px 0;
     margin-top: 80px;
 
+    @include respond-to('xl') {
+        text-align: center;
+    }
+
+
     .logo {
 
         display: flex;
@@ -253,6 +280,11 @@ footer {
         font-size: 20px;
         text-transform: uppercase;
         color: #fff;
+
+        @include respond-to('xl') {
+            justify-content: center;
+
+        }
     }
 
     .footer-logo p {
@@ -261,6 +293,11 @@ footer {
         margin-top: 20px;
         width: 100%;
         max-width: 266px;
+
+        @include respond-to('xl') {
+            margin: 20px auto;
+
+        }
     }
 
     .menu-footer {

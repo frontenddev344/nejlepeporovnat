@@ -50,6 +50,12 @@ nav .logo {
     justify-content: flex-start;
   }
 }
+@media (max-width: 992px) {
+  nav .logo {
+    font-size: 17px;
+    font-weight: 700;
+  }
+}
 nav .links {
   float: right;
   padding: 0;
@@ -155,21 +161,34 @@ nav .icon-burger .line {
 .site-bnr .bnr-img {
   height: 800px;
 }
+@media (max-width: 992px) {
+  .site-bnr .bnr-img {
+    height: 500px;
+  }
+}
 .site-bnr .bnr-img img {
   height: 100%;
   object-fit: cover;
 }
 .site-bnr .bnr-text {
   position: absolute;
-  top: 35%;
+  top: 50%;
   width: 100%;
   max-width: 800px;
   z-index: 99;
+  transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  .site-bnr .bnr-text {
+    left: 0;
+    padding: 0 20px;
+  }
 }
 .site-bnr .bnr-text h1 {
   color: #fff;
   font-size: 40px;
   line-height: 50px;
+  font-weight: 700;
 }
 .site-bnr .bnr-text p {
   color: #fff;
@@ -209,6 +228,11 @@ section.awaits .ruchle h4 {
   z-index: 999;
   position: relative;
 }
+@media (max-width: 767px) {
+  section.awaits .ruchle h4 {
+    margin-left: 0%;
+  }
+}
 section.awaits p {
   margin-top: 40px;
   color: #000;
@@ -238,6 +262,11 @@ footer {
   padding: 50px 0;
   margin-top: 80px;
 }
+@media (max-width: 992px) {
+  footer {
+    text-align: center;
+  }
+}
 footer .logo {
   display: flex;
   align-items: center;
@@ -245,12 +274,22 @@ footer .logo {
   text-transform: uppercase;
   color: #fff;
 }
+@media (max-width: 992px) {
+  footer .logo {
+    justify-content: center;
+  }
+}
 footer .footer-logo p {
   color: #fff;
   line-height: 32px;
   margin-top: 20px;
   width: 100%;
   max-width: 266px;
+}
+@media (max-width: 992px) {
+  footer .footer-logo p {
+    margin: 20px auto;
+  }
 }
 footer .menu-footer h3 {
   color: #fff;
