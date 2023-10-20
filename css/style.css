@@ -158,7 +158,7 @@ nav .icon-burger .line {
   z-index: 99;
   transform: translateY(-50%);
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .site-bnr .bnr-text {
     left: 0;
     padding: 0 20px;
@@ -228,6 +228,9 @@ section.abychom-text .abychom-iner {
 
 .main-billboard {
   margin-top: 50px;
+}
+.main-billboard .augustine {
+  margin-bottom: 30px;
 }
 .main-billboard .augustine h3 {
   margin: 20px 0;
