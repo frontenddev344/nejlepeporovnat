@@ -246,6 +246,36 @@ section.abychom-text .abychom-iner {
   height: 400px;
   object-fit: cover;
 }
+.main-billboard .augustine .site-home-btn {
+  text-align: center;
+}
+.main-billboard .augustine .site-home-btn a {
+  background-color: #3e65da;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 35px;
+  position: relative;
+  margin-top: 20px;
+  display: inline-block;
+}
+.main-billboard .augustine .site-home-btn a::before {
+  content: "";
+  position: absolute;
+  width: 212px;
+  height: 5px;
+  top: 0;
+  left: -10px;
+  background: #3e65da;
+}
+.main-billboard .augustine .site-home-btn a::after {
+  content: "";
+  position: absolute;
+  width: 212px;
+  height: 5px;
+  bottom: 0;
+  left: -10px;
+  background: #3e65da;
+}
 
 footer {
   background-color: #000;

@@ -258,6 +258,22 @@ section.abychom-text {
                 object-fit: cover;
             }
         }
+
+        .site-home-btn {
+            text-align: center;
+
+            a {
+                @include inner-btn;
+
+                &::before {
+                    @include before;
+                }
+
+                &::after {
+                    @include after;
+                }
+            }
+        }
     }
 }
 
