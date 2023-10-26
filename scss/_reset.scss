@@ -1074,3 +1074,10 @@ nav .links a.active::before {
     transform: scaleX(1);
     color: white;
 }
+
+section.iner-page.resort-bg{
+    background: url(../images/resort-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
