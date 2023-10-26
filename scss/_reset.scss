@@ -273,9 +273,19 @@ section.abychom-text {
                 &::after {
                     @include after;
                 }
+
+                &:hover {
+                    background-color: #000;
+                }
+
+                &:hover::after,
+                &:hover::before {
+                    background-color: #000;
+                }
             }
         }
     }
+
 }
 
 // 
@@ -646,6 +656,15 @@ section.Page-second {
                 &::before {
                     @include before;
                 }
+
+                &:hover {
+                    background-color: #000;
+                }
+
+                &:hover::after,
+                &:hover::before {
+                    background-color: #000;
+                }
             }
         }
 
@@ -817,6 +836,15 @@ section.cloudflare-box {
                 position: relative;
                 margin-top: 20px;
                 display: inline-block;
+
+                &:hover {
+                    background-color: #000;
+                }
+
+                &:hover::after,
+                &:hover::before {
+                    background-color: #000;
+                }
 
                 @include respond-to('xxl') {
                     padding: 10px 8px;

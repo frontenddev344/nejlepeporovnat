@@ -258,6 +258,7 @@ section.abychom-text .abychom-iner {
   position: relative;
   margin-top: 20px;
   display: inline-block;
+  transition: all 0.3s ease-in-out;
 }
 .main-billboard .augustine .site-home-btn a::before {
   content: "";
@@ -267,6 +268,7 @@ section.abychom-text .abychom-iner {
   top: 0;
   left: -10px;
   background: #3e65da;
+  transition: all 0.3s ease-in-out;
 }
 .main-billboard .augustine .site-home-btn a::after {
   content: "";
@@ -276,6 +278,13 @@ section.abychom-text .abychom-iner {
   bottom: 0;
   left: -10px;
   background: #3e65da;
+  transition: all 0.3s ease-in-out;
+}
+.main-billboard .augustine .site-home-btn a:hover {
+  background-color: #000;
+}
+.main-billboard .augustine .site-home-btn a:hover::after, .main-billboard .augustine .site-home-btn a:hover::before {
+  background-color: #000;
 }
 
 footer {
@@ -577,6 +586,7 @@ section.Page-second .inner-page-second .inner-btn a {
   position: relative;
   margin-top: 20px;
   display: inline-block;
+  transition: all 0.3s ease-in-out;
 }
 section.Page-second .inner-page-second .inner-btn a::after {
   content: "";
@@ -586,6 +596,7 @@ section.Page-second .inner-page-second .inner-btn a::after {
   bottom: 0;
   left: -10px;
   background: #3e65da;
+  transition: all 0.3s ease-in-out;
 }
 section.Page-second .inner-page-second .inner-btn a::before {
   content: "";
@@ -595,6 +606,13 @@ section.Page-second .inner-page-second .inner-btn a::before {
   top: 0;
   left: -10px;
   background: #3e65da;
+  transition: all 0.3s ease-in-out;
+}
+section.Page-second .inner-page-second .inner-btn a:hover {
+  background-color: #000;
+}
+section.Page-second .inner-page-second .inner-btn a:hover::after, section.Page-second .inner-page-second .inner-btn a:hover::before {
+  background-color: #000;
 }
 
 section.iner-page.resort {
@@ -740,6 +758,12 @@ section.cloudflare-box .row .ventana-btn a {
   position: relative;
   margin-top: 20px;
   display: inline-block;
+}
+section.cloudflare-box .row .ventana-btn a:hover {
+  background-color: #000;
+}
+section.cloudflare-box .row .ventana-btn a:hover::after, section.cloudflare-box .row .ventana-btn a:hover::before {
+  background-color: #000;
 }
 @media (max-width: 1200px) {
   section.cloudflare-box .row .ventana-btn a {
