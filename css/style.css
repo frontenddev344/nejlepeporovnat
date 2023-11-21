@@ -185,7 +185,7 @@ nav .icon-burger .line {
 }
 
 section.awaits {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 section.awaits .awaits-wrapper h2 {
   color: #000;
@@ -232,6 +232,25 @@ section.abychom-text .abychom-iner {
   box-shadow: 0 0 7px rgba(71, 189, 236, 0.26);
   padding: 20px;
   margin-top: 2rem;
+}
+
+.ventana-text.space p {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+p.awaitspara {
+  max-width: 100% !important;
+}
+
+.awaits-wrapper.title {
+  padding-top: 30px;
+}
+
+.awaits-wrapper h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
 }
 
 .main-billboard {
