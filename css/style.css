@@ -258,6 +258,15 @@ p.awaitspara {
   font-weight: 700;
 }
 
+.awaits-wrapper.title.republic h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.col-xl-4.col-lg-6.col-md-6.space {
+  margin-top: 25px;
+}
+
 .main-billboard {
   margin-top: 50px;
 }
