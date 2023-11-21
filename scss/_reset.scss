@@ -246,6 +246,7 @@ section.abychom-text {
     max-width: 100%;
     margin-top: 0;
 }
+
 //new-css-start//
 p.awaitspara {
     max-width: 100% !important;
@@ -265,14 +266,21 @@ p.awaitspara {
     text-align: center;
     font-weight: 700;
 }
+
 .awaits-wrapper.title.republic h2 {
     font-size: 25px;
     margin-bottom: 25px;
 }
 
-.col-xl-4.col-lg-6.col-md-6.space {
-    margin-top: 25px;
+.inner-page-second .row {
+    row-gap: 30px;
 }
+
+.carlsbadpicture img {
+    max-width: 80px;
+    padding: 30px 0 0;
+}
+
 //new-css-end//
 // 
 .main-billboard {
