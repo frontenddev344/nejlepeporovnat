@@ -241,22 +241,31 @@ section.abychom-text {
 
     }
 }
+
 .ventana-text.space p {
     max-width: 100%;
     margin-top: 0;
 }
+
 p.awaitspara {
     max-width: 100% !important;
 }
 
-.awaits-wrapper.title{
+.awaits-wrapper.titles {
     padding-top: 30px;
+    margin-bottom: -45px;
 }
+
+.awaits-wrapper.title {
+    padding: 30px 0 0 0;
+}
+
 .awaits-wrapper h2 {
     color: #000;
     text-align: center;
     font-weight: 700;
 }
+
 // 
 .main-billboard {
     margin-top: 50px;
@@ -1090,7 +1099,7 @@ nav .links a.active::before {
     color: white;
 }
 
-section.iner-page.resort-bg{
+section.iner-page.resort-bg {
     background: url(../images/one-r.jpg);
     background-repeat: no-repeat;
     background-position: center;

@@ -243,8 +243,13 @@ p.awaitspara {
   max-width: 100% !important;
 }
 
-.awaits-wrapper.title {
+.awaits-wrapper.titles {
   padding-top: 30px;
+  margin-bottom: -45px;
+}
+
+.awaits-wrapper.title {
+  padding: 30px 0 0 0;
 }
 
 .awaits-wrapper h2 {
