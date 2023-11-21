@@ -72,4 +72,17 @@
         left: 0;
         padding: 0 20px;
     }
+    section.site-bnr.home .bnr-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+}
+section.site-bnr.home .bnr-text h1 {
+font-size: 35px;
+}
 }
